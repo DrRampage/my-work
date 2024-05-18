@@ -1,0 +1,9 @@
+import math
+
+def calculate_earth_surface_area(radius):
+    return 4 * math.pi * (radius ** 2)
+
+earth_radius = 6400  # in km
+earth_surface_area = calculate_earth_surface_area(earth_radius)
+
+print("The surface area of the Earth is approximately", earth_surface_area, "square kilometers.")
